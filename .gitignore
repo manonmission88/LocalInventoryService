@@ -31,3 +31,85 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Application Properties - Sensitive Configuration ###
+application-local.properties
+application-dev.properties
+application-prod.properties
+application-*.properties
+*.env
+.env
+.env.local
+.env.*.local
+
+### Database ###
+*.db
+*.sqlite
+*.sql.gz
+/docker/mysql/data/
+/docker/postgres/data/
+
+### Logs ###
+logs/
+*.log
+*.log.*
+*.gz
+/log/
+
+### Security & Secrets ###
+secrets/
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.crt
+*.cer
+*.pfx
+*-key.json
+credentials.json
+service-account.json
+
+### Operating System ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+### Temporary Files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.sw?
+
+### Maven ###
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+### Docker ###
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.yml
+.dockerignore
+
+### Backup Files ###
+*.bak
+*.backup
+*.old
+*.orig
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar

@@ -23,8 +23,9 @@ public class Event {
     private Long totalCapacity;
 
     @Column(name = "left_capacity")
-    private Long totalCapacity;
+    private Long leftCapacity;
 
     @ManyToOne
-    @JoinColumn(name="venue_id")
+    @JoinColumn(name = "venue_id")
     private Venue venue;
+}

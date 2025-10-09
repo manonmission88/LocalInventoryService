@@ -19,7 +19,7 @@ import java.util.List;
 public class InventoryController
 {
     // this controller going to return the multiple events
-    private LocalInventoryService localInventoryService;
+    private final LocalInventoryService localInventoryService;
 
     @Autowired
     public InventoryController(final LocalInventoryService localInventoryService){

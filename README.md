@@ -14,7 +14,7 @@ A Spring Boot microservice for managing event and venue inventory with real-time
 - **Venue Details:** Fetch venue info including location and capacity
 - **Event-Venue Mapping:** Maintain consistent relationships between events and venues
 
-- TO BE CONTINUE 
+- TO BE CONTINUED
 ---
 
 ## Tech Stack
